@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F22C21D11E571EC8009F98A2 /* SWMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C21C51E571EC8009F98A2 /* SWMedia.swift */; };
+		F22C21D21E571EC8009F98A2 /* SWMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C21C51E571EC8009F98A2 /* SWMedia.swift */; };
+		F22C21D31E571EC8009F98A2 /* SWMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C21C51E571EC8009F98A2 /* SWMedia.swift */; };
+		F22C21D41E571EC8009F98A2 /* SWReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C21C71E571EC8009F98A2 /* SWReachability.swift */; };
+		F22C21D51E571EC8009F98A2 /* SWReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C21C71E571EC8009F98A2 /* SWReachability.swift */; };
+		F22C21D61E571EC8009F98A2 /* SWReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C21C71E571EC8009F98A2 /* SWReachability.swift */; };
+		F22C21D71E571EC8009F98A2 /* SWRequestedDataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C21C91E571EC8009F98A2 /* SWRequestedDataType.swift */; };
+		F22C21D81E571EC8009F98A2 /* SWRequestedDataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C21C91E571EC8009F98A2 /* SWRequestedDataType.swift */; };
+		F22C21D91E571EC8009F98A2 /* SWRequestedDataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C21C91E571EC8009F98A2 /* SWRequestedDataType.swift */; };
+		F22C21DA1E571EC8009F98A2 /* SWResponseDataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C21CA1E571EC8009F98A2 /* SWResponseDataType.swift */; };
+		F22C21DB1E571EC8009F98A2 /* SWResponseDataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C21CA1E571EC8009F98A2 /* SWResponseDataType.swift */; };
+		F22C21DC1E571EC8009F98A2 /* SWResponseDataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C21CA1E571EC8009F98A2 /* SWResponseDataType.swift */; };
+		F22C21DD1E571EC8009F98A2 /* SWOfflineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C21CC1E571EC8009F98A2 /* SWOfflineManager.swift */; };
+		F22C21DE1E571EC8009F98A2 /* SWOfflineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C21CC1E571EC8009F98A2 /* SWOfflineManager.swift */; };
+		F22C21DF1E571EC8009F98A2 /* SWOfflineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C21CC1E571EC8009F98A2 /* SWOfflineManager.swift */; };
+		F22C21E01E571EC8009F98A2 /* SWReqeust.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C21CD1E571EC8009F98A2 /* SWReqeust.swift */; };
+		F22C21E11E571EC8009F98A2 /* SWReqeust.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C21CD1E571EC8009F98A2 /* SWReqeust.swift */; };
+		F22C21E21E571EC8009F98A2 /* SWReqeust.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C21CD1E571EC8009F98A2 /* SWReqeust.swift */; };
+		F22C21E31E571EC8009F98A2 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C21CF1E571EC8009F98A2 /* UIImageViewExtension.swift */; };
+		F22C21E41E571EC8009F98A2 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C21CF1E571EC8009F98A2 /* UIImageViewExtension.swift */; };
+		F22C21E51E571EC8009F98A2 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C21CF1E571EC8009F98A2 /* UIImageViewExtension.swift */; };
+		F22C21E61E571EC8009F98A2 /* UIProgressViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C21D01E571EC8009F98A2 /* UIProgressViewExtension.swift */; };
+		F22C21E71E571EC8009F98A2 /* UIProgressViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C21D01E571EC8009F98A2 /* UIProgressViewExtension.swift */; };
+		F22C21E81E571EC8009F98A2 /* UIProgressViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C21D01E571EC8009F98A2 /* UIProgressViewExtension.swift */; };
+		F23040071E39F97300A10D86 /* skywite.png in Resources */ = {isa = PBXBuildFile; fileRef = F23040061E39F97300A10D86 /* skywite.png */; };
+		F23040081E39F97300A10D86 /* skywite.png in Resources */ = {isa = PBXBuildFile; fileRef = F23040061E39F97300A10D86 /* skywite.png */; };
+		F24A6C671E150E550022C40F /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24A6C661E150E550022C40F /* MasterViewController.swift */; };
+		F2573CA51CDA17E700B6E0C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2573CA41CDA17E700B6E0C4 /* AppDelegate.swift */; };
+		F2573CA71CDA17E700B6E0C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2573CA61CDA17E700B6E0C4 /* ViewController.swift */; };
+		F2573CAA1CDA17E700B6E0C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2573CA81CDA17E700B6E0C4 /* Main.storyboard */; };
+		F2573CAC1CDA17E700B6E0C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2573CAB1CDA17E700B6E0C4 /* Assets.xcassets */; };
+		F2573CAF1CDA17E700B6E0C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2573CAD1CDA17E700B6E0C4 /* LaunchScreen.storyboard */; };
+		F2793E161DDA298800CF73B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2793E151DDA298800CF73B1 /* AppDelegate.swift */; };
+		F2793E181DDA298800CF73B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2793E171DDA298800CF73B1 /* ViewController.swift */; };
+		F2793E1A1DDA298800CF73B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2793E191DDA298800CF73B1 /* Assets.xcassets */; };
+		F2793E1D1DDA298800CF73B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2793E1B1DDA298800CF73B1 /* Main.storyboard */; };
+		F2793E271DDA29BD00CF73B1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2793E261DDA29BD00CF73B1 /* Cocoa.framework */; };
+		F2FB6EA31E55AA8100BDBF7A /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2FB6EA21E55AA8100BDBF7A /* ReplayKit.framework */; };
+		F2FB6EA51E55AA8100BDBF7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2FB6EA41E55AA8100BDBF7A /* UIKit.framework */; };
+		F2FB6EA81E55AA8100BDBF7A /* BroadcastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6EA71E55AA8100BDBF7A /* BroadcastViewController.swift */; };
+		F2FB6EAB1E55AA8100BDBF7A /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2FB6EA91E55AA8100BDBF7A /* MainInterface.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F2FB6E9C1E55AA1F00BDBF7A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F22C21C51E571EC8009F98A2 /* SWMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWMedia.swift; sourceTree = "<group>"; };
+		F22C21C71E571EC8009F98A2 /* SWReachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWReachability.swift; sourceTree = "<group>"; };
+		F22C21C91E571EC8009F98A2 /* SWRequestedDataType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWRequestedDataType.swift; sourceTree = "<group>"; };
+		F22C21CA1E571EC8009F98A2 /* SWResponseDataType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWResponseDataType.swift; sourceTree = "<group>"; };
+		F22C21CC1E571EC8009F98A2 /* SWOfflineManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWOfflineManager.swift; sourceTree = "<group>"; };
+		F22C21CD1E571EC8009F98A2 /* SWReqeust.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWReqeust.swift; sourceTree = "<group>"; };
+		F22C21CF1E571EC8009F98A2 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		F22C21D01E571EC8009F98A2 /* UIProgressViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIProgressViewExtension.swift; sourceTree = "<group>"; };
+		F23040061E39F97300A10D86 /* skywite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = skywite.png; path = SkyWiteExample/skywite.png; sourceTree = "<group>"; };
+		F24A6C661E150E550022C40F /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		F2573CA11CDA17E500B6E0C4 /* SkyWiteExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyWiteExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2573CA41CDA17E700B6E0C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2573CA61CDA17E700B6E0C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2573CA91CDA17E700B6E0C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2573CAB1CDA17E700B6E0C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2573CAE1CDA17E700B6E0C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2573CB01CDA17E700B6E0C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2793E131DDA298800CF73B1 /* SkyWiteMacExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyWiteMacExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2793E151DDA298800CF73B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2793E171DDA298800CF73B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2793E191DDA298800CF73B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2793E1C1DDA298800CF73B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2793E1E1DDA298800CF73B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2793E261DDA29BD00CF73B1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		F2FB6E791E55AA1F00BDBF7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		F2FB6E7B1E55AA1F00BDBF7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2FB6E7D1E55AA1F00BDBF7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2FB6E881E55AA1F00BDBF7A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		F2FB6E891E55AA1F00BDBF7A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		F2FB6E8B1E55AA1F00BDBF7A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		F2FB6E8D1E55AA1F00BDBF7A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		F2FB6E8F1E55AA1F00BDBF7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2FB6E911E55AA1F00BDBF7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2FB6EA11E55AA8100BDBF7A /* SkyWiteTVExample.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SkyWiteTVExample.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2FB6EA21E55AA8100BDBF7A /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
+		F2FB6EA41E55AA8100BDBF7A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F2FB6EA71E55AA8100BDBF7A /* BroadcastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastViewController.swift; sourceTree = "<group>"; };
+		F2FB6EAA1E55AA8100BDBF7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		F2FB6EAC1E55AA8100BDBF7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2573C9E1CDA17E500B6E0C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2793E101DDA298800CF73B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2793E271DDA29BD00CF73B1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2FB6E9E1E55AA8100BDBF7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2FB6EA31E55AA8100BDBF7A /* ReplayKit.framework in Frameworks */,
+				F2FB6EA51E55AA8100BDBF7A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F22C21C31E571EC8009F98A2 /* SkyWite */ = {
+			isa = PBXGroup;
+			children = (
+				F22C21C41E571EC8009F98A2 /* File */,
+				F22C21C61E571EC8009F98A2 /* Reachability */,
+				F22C21C81E571EC8009F98A2 /* ResponseType */,
+				F22C21CB1E571EC8009F98A2 /* SWRequest */,
+				F22C21CE1E571EC8009F98A2 /* UIKit+SkyWite */,
+			);
+			path = SkyWite;
+			sourceTree = "<group>";
+		};
+		F22C21C41E571EC8009F98A2 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				F22C21C51E571EC8009F98A2 /* SWMedia.swift */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		F22C21C61E571EC8009F98A2 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				F22C21C71E571EC8009F98A2 /* SWReachability.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		F22C21C81E571EC8009F98A2 /* ResponseType */ = {
+			isa = PBXGroup;
+			children = (
+				F22C21C91E571EC8009F98A2 /* SWRequestedDataType.swift */,
+				F22C21CA1E571EC8009F98A2 /* SWResponseDataType.swift */,
+			);
+			path = ResponseType;
+			sourceTree = "<group>";
+		};
+		F22C21CB1E571EC8009F98A2 /* SWRequest */ = {
+			isa = PBXGroup;
+			children = (
+				F22C21CC1E571EC8009F98A2 /* SWOfflineManager.swift */,
+				F22C21CD1E571EC8009F98A2 /* SWReqeust.swift */,
+			);
+			path = SWRequest;
+			sourceTree = "<group>";
+		};
+		F22C21CE1E571EC8009F98A2 /* UIKit+SkyWite */ = {
+			isa = PBXGroup;
+			children = (
+				F22C21CF1E571EC8009F98A2 /* UIImageViewExtension.swift */,
+				F22C21D01E571EC8009F98A2 /* UIProgressViewExtension.swift */,
+			);
+			path = "UIKit+SkyWite";
+			sourceTree = "<group>";
+		};
+		F2573C981CDA17E500B6E0C4 = {
+			isa = PBXGroup;
+			children = (
+				F22C21C31E571EC8009F98A2 /* SkyWite */,
+				F23040061E39F97300A10D86 /* skywite.png */,
+				F2573CA31CDA17E700B6E0C4 /* SkyWiteExample */,
+				F2793E141DDA298800CF73B1 /* SkyWiteMacExample */,
+				F2FB6E771E55AA1F00BDBF7A /* SkyWiteWatchExample */,
+				F2FB6E861E55AA1F00BDBF7A /* SkyWiteWatchExample Extension */,
+				F2FB6EA61E55AA8100BDBF7A /* SkyWiteTVExample */,
+				F2573CA21CDA17E500B6E0C4 /* Products */,
+				F2793E251DDA29BD00CF73B1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2573CA21CDA17E500B6E0C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2573CA11CDA17E500B6E0C4 /* SkyWiteExample.app */,
+				F2793E131DDA298800CF73B1 /* SkyWiteMacExample.app */,
+				F2FB6EA11E55AA8100BDBF7A /* SkyWiteTVExample.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2573CA31CDA17E700B6E0C4 /* SkyWiteExample */ = {
+			isa = PBXGroup;
+			children = (
+				F2573CA41CDA17E700B6E0C4 /* AppDelegate.swift */,
+				F2573CA61CDA17E700B6E0C4 /* ViewController.swift */,
+				F2573CA81CDA17E700B6E0C4 /* Main.storyboard */,
+				F2573CAB1CDA17E700B6E0C4 /* Assets.xcassets */,
+				F2573CAD1CDA17E700B6E0C4 /* LaunchScreen.storyboard */,
+				F2573CB01CDA17E700B6E0C4 /* Info.plist */,
+				F24A6C661E150E550022C40F /* MasterViewController.swift */,
+			);
+			path = SkyWiteExample;
+			sourceTree = "<group>";
+		};
+		F2793E141DDA298800CF73B1 /* SkyWiteMacExample */ = {
+			isa = PBXGroup;
+			children = (
+				F2793E151DDA298800CF73B1 /* AppDelegate.swift */,
+				F2793E171DDA298800CF73B1 /* ViewController.swift */,
+				F2793E191DDA298800CF73B1 /* Assets.xcassets */,
+				F2793E1B1DDA298800CF73B1 /* Main.storyboard */,
+				F2793E1E1DDA298800CF73B1 /* Info.plist */,
+			);
+			path = SkyWiteMacExample;
+			sourceTree = "<group>";
+		};
+		F2793E251DDA29BD00CF73B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2793E261DDA29BD00CF73B1 /* Cocoa.framework */,
+				F2FB6EA21E55AA8100BDBF7A /* ReplayKit.framework */,
+				F2FB6EA41E55AA8100BDBF7A /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2FB6E771E55AA1F00BDBF7A /* SkyWiteWatchExample */ = {
+			isa = PBXGroup;
+			children = (
+				F2FB6E781E55AA1F00BDBF7A /* Interface.storyboard */,
+				F2FB6E7B1E55AA1F00BDBF7A /* Assets.xcassets */,
+				F2FB6E7D1E55AA1F00BDBF7A /* Info.plist */,
+			);
+			path = SkyWiteWatchExample;
+			sourceTree = "<group>";
+		};
+		F2FB6E861E55AA1F00BDBF7A /* SkyWiteWatchExample Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F2FB6E891E55AA1F00BDBF7A /* InterfaceController.swift */,
+				F2FB6E8B1E55AA1F00BDBF7A /* ExtensionDelegate.swift */,
+				F2FB6E8D1E55AA1F00BDBF7A /* NotificationController.swift */,
+				F2FB6E8F1E55AA1F00BDBF7A /* Assets.xcassets */,
+				F2FB6E911E55AA1F00BDBF7A /* Info.plist */,
+				F2FB6E871E55AA1F00BDBF7A /* Supporting Files */,
+			);
+			path = "SkyWiteWatchExample Extension";
+			sourceTree = "<group>";
+		};
+		F2FB6E871E55AA1F00BDBF7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2FB6E881E55AA1F00BDBF7A /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2FB6EA61E55AA8100BDBF7A /* SkyWiteTVExample */ = {
+			isa = PBXGroup;
+			children = (
+				F2FB6EA71E55AA8100BDBF7A /* BroadcastViewController.swift */,
+				F2FB6EA91E55AA8100BDBF7A /* MainInterface.storyboard */,
+				F2FB6EAC1E55AA8100BDBF7A /* Info.plist */,
+			);
+			path = SkyWiteTVExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2573CA01CDA17E500B6E0C4 /* SkyWiteExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2573CB31CDA17E700B6E0C4 /* Build configuration list for PBXNativeTarget "SkyWiteExample" */;
+			buildPhases = (
+				F2573C9D1CDA17E500B6E0C4 /* Sources */,
+				F2573C9E1CDA17E500B6E0C4 /* Frameworks */,
+				F2573C9F1CDA17E500B6E0C4 /* Resources */,
+				F2FB6E9C1E55AA1F00BDBF7A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyWiteExample;
+			productName = SkyWiteExample;
+			productReference = F2573CA11CDA17E500B6E0C4 /* SkyWiteExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2793E121DDA298800CF73B1 /* SkyWiteMacExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2793E1F1DDA298800CF73B1 /* Build configuration list for PBXNativeTarget "SkyWiteMacExample" */;
+			buildPhases = (
+				F2793E0F1DDA298800CF73B1 /* Sources */,
+				F2793E101DDA298800CF73B1 /* Frameworks */,
+				F2793E111DDA298800CF73B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyWiteMacExample;
+			productName = SkyWiteMacExample;
+			productReference = F2793E131DDA298800CF73B1 /* SkyWiteMacExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2FB6EA01E55AA8100BDBF7A /* SkyWiteTVExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2FB6EAD1E55AA8100BDBF7A /* Build configuration list for PBXNativeTarget "SkyWiteTVExample" */;
+			buildPhases = (
+				F2FB6E9D1E55AA8100BDBF7A /* Sources */,
+				F2FB6E9E1E55AA8100BDBF7A /* Frameworks */,
+				F2FB6E9F1E55AA8100BDBF7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyWiteTVExample;
+			productName = SkyWiteTVExample;
+			productReference = F2FB6EA11E55AA8100BDBF7A /* SkyWiteTVExample.appex */;
+			productType = "com.apple.product-type.tv-broadcast-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2573C991CDA17E500B6E0C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Saman Kumara";
+				TargetAttributes = {
+					F2573CA01CDA17E500B6E0C4 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = Y32VQD3J76;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
+					};
+					F2793E121DDA298800CF73B1 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = T9JWD7XN6W;
+						ProvisioningStyle = Automatic;
+					};
+					F2FB6EA01E55AA8100BDBF7A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = T9JWD7XN6W;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F2573C9C1CDA17E500B6E0C4 /* Build configuration list for PBXProject "SkyWiteExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2573C981CDA17E500B6E0C4;
+			productRefGroup = F2573CA21CDA17E500B6E0C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2573CA01CDA17E500B6E0C4 /* SkyWiteExample */,
+				F2793E121DDA298800CF73B1 /* SkyWiteMacExample */,
+				F2FB6EA01E55AA8100BDBF7A /* SkyWiteTVExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2573C9F1CDA17E500B6E0C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2573CAF1CDA17E700B6E0C4 /* LaunchScreen.storyboard in Resources */,
+				F2573CAC1CDA17E700B6E0C4 /* Assets.xcassets in Resources */,
+				F23040071E39F97300A10D86 /* skywite.png in Resources */,
+				F2573CAA1CDA17E700B6E0C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2793E111DDA298800CF73B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23040081E39F97300A10D86 /* skywite.png in Resources */,
+				F2793E1A1DDA298800CF73B1 /* Assets.xcassets in Resources */,
+				F2793E1D1DDA298800CF73B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2FB6E9F1E55AA8100BDBF7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2FB6EAB1E55AA8100BDBF7A /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2573C9D1CDA17E500B6E0C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22C21E31E571EC8009F98A2 /* UIImageViewExtension.swift in Sources */,
+				F22C21D41E571EC8009F98A2 /* SWReachability.swift in Sources */,
+				F22C21E01E571EC8009F98A2 /* SWReqeust.swift in Sources */,
+				F22C21DD1E571EC8009F98A2 /* SWOfflineManager.swift in Sources */,
+				F22C21DA1E571EC8009F98A2 /* SWResponseDataType.swift in Sources */,
+				F2573CA71CDA17E700B6E0C4 /* ViewController.swift in Sources */,
+				F22C21D71E571EC8009F98A2 /* SWRequestedDataType.swift in Sources */,
+				F2573CA51CDA17E700B6E0C4 /* AppDelegate.swift in Sources */,
+				F22C21D11E571EC8009F98A2 /* SWMedia.swift in Sources */,
+				F22C21E61E571EC8009F98A2 /* UIProgressViewExtension.swift in Sources */,
+				F24A6C671E150E550022C40F /* MasterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2793E0F1DDA298800CF73B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2793E181DDA298800CF73B1 /* ViewController.swift in Sources */,
+				F22C21D81E571EC8009F98A2 /* SWRequestedDataType.swift in Sources */,
+				F2793E161DDA298800CF73B1 /* AppDelegate.swift in Sources */,
+				F22C21E71E571EC8009F98A2 /* UIProgressViewExtension.swift in Sources */,
+				F22C21D51E571EC8009F98A2 /* SWReachability.swift in Sources */,
+				F22C21DB1E571EC8009F98A2 /* SWResponseDataType.swift in Sources */,
+				F22C21E41E571EC8009F98A2 /* UIImageViewExtension.swift in Sources */,
+				F22C21E11E571EC8009F98A2 /* SWReqeust.swift in Sources */,
+				F22C21DE1E571EC8009F98A2 /* SWOfflineManager.swift in Sources */,
+				F22C21D21E571EC8009F98A2 /* SWMedia.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2FB6E9D1E55AA8100BDBF7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22C21D91E571EC8009F98A2 /* SWRequestedDataType.swift in Sources */,
+				F22C21D31E571EC8009F98A2 /* SWMedia.swift in Sources */,
+				F22C21E21E571EC8009F98A2 /* SWReqeust.swift in Sources */,
+				F22C21E81E571EC8009F98A2 /* UIProgressViewExtension.swift in Sources */,
+				F22C21DC1E571EC8009F98A2 /* SWResponseDataType.swift in Sources */,
+				F22C21D61E571EC8009F98A2 /* SWReachability.swift in Sources */,
+				F2FB6EA81E55AA8100BDBF7A /* BroadcastViewController.swift in Sources */,
+				F22C21E51E571EC8009F98A2 /* UIImageViewExtension.swift in Sources */,
+				F22C21DF1E571EC8009F98A2 /* SWOfflineManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2573CA81CDA17E700B6E0C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2573CA91CDA17E700B6E0C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2573CAD1CDA17E700B6E0C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2573CAE1CDA17E700B6E0C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F2793E1B1DDA298800CF73B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2793E1C1DDA298800CF73B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2FB6E781E55AA1F00BDBF7A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2FB6E791E55AA1F00BDBF7A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		F2FB6EA91E55AA8100BDBF7A /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2FB6EAA1E55AA8100BDBF7A /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2573CB11CDA17E700B6E0C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2573CB21CDA17E700B6E0C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2573CB41CDA17E700B6E0C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y32VQD3J76;
+				INFOPLIST_FILE = SkyWiteExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skywite..SkyWiteExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ac62b2da-19f2-468a-a5ac-efa551c2e675";
+				PROVISIONING_PROFILE_SPECIFIER = "nestle dev profile";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F2573CB51CDA17E700B6E0C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SkyWiteExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skywite..SkyWiteExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F2793E201DDA298800CF73B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T9JWD7XN6W;
+				INFOPLIST_FILE = SkyWiteMacExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.greatmobileapp.SkyWiteMacExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F2793E211DDA298800CF73B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T9JWD7XN6W;
+				INFOPLIST_FILE = SkyWiteMacExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.greatmobileapp.SkyWiteMacExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F2FB6EAE1E55AA8100BDBF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = T9JWD7XN6W;
+				INFOPLIST_FILE = SkyWiteTVExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.greatmobileapp.SkyWiteTVExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		F2FB6EAF1E55AA8100BDBF7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = T9JWD7XN6W;
+				INFOPLIST_FILE = SkyWiteTVExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.greatmobileapp.SkyWiteTVExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2573C9C1CDA17E500B6E0C4 /* Build configuration list for PBXProject "SkyWiteExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2573CB11CDA17E700B6E0C4 /* Debug */,
+				F2573CB21CDA17E700B6E0C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2573CB31CDA17E700B6E0C4 /* Build configuration list for PBXNativeTarget "SkyWiteExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2573CB41CDA17E700B6E0C4 /* Debug */,
+				F2573CB51CDA17E700B6E0C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2793E1F1DDA298800CF73B1 /* Build configuration list for PBXNativeTarget "SkyWiteMacExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2793E201DDA298800CF73B1 /* Debug */,
+				F2793E211DDA298800CF73B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2FB6EAD1E55AA8100BDBF7A /* Build configuration list for PBXNativeTarget "SkyWiteTVExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2FB6EAE1E55AA8100BDBF7A /* Debug */,
+				F2FB6EAF1E55AA8100BDBF7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2573C991CDA17E500B6E0C4 /* Project object */;
+}
