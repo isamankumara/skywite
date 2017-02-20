@@ -5,7 +5,6 @@
 </p>
 
 
-[![Build Status](https://travis-ci.org/isamankumara/SkyWite.svg?branch=master)](https://travis-ci.org/isamankumara/SkyWite)
 [![Version](https://img.shields.io/cocoapods/v/SkyWite.svg?style=flat)](http://cocoapods.org/pods/SkyWite)
 [![License](https://img.shields.io/cocoapods/l/SkyWite.svg?style=flat)](http://cocoapods.org/pods/SkyWite)
 [![Platform](https://img.shields.io/cocoapods/p/SkyWite.svg?style=flat)](http://cocoapods.org/pods/SkyWite)
@@ -81,6 +80,7 @@ If you are new to CocoaPods, please go to [Wiki](https://guides.cocoapods.org/us
 * `UIKit+SkyWite`
 - `UIImageViewExtension`
 - `UIProgressViewExtension`
+
 # How to Use
 
 ## Use HTTP Request will be `NSURLSession`

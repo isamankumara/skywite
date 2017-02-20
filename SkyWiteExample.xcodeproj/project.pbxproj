@@ -88,15 +88,6 @@
 		F2793E1C1DDA298800CF73B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2793E1E1DDA298800CF73B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2793E261DDA29BD00CF73B1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		F2FB6E791E55AA1F00BDBF7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		F2FB6E7B1E55AA1F00BDBF7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F2FB6E7D1E55AA1F00BDBF7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2FB6E881E55AA1F00BDBF7A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		F2FB6E891E55AA1F00BDBF7A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
-		F2FB6E8B1E55AA1F00BDBF7A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		F2FB6E8D1E55AA1F00BDBF7A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
-		F2FB6E8F1E55AA1F00BDBF7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F2FB6E911E55AA1F00BDBF7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2FB6EA11E55AA8100BDBF7A /* SkyWiteTVExample.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SkyWiteTVExample.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2FB6EA21E55AA8100BDBF7A /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
 		F2FB6EA41E55AA8100BDBF7A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -195,8 +186,6 @@
 				F23040061E39F97300A10D86 /* skywite.png */,
 				F2573CA31CDA17E700B6E0C4 /* SkyWiteExample */,
 				F2793E141DDA298800CF73B1 /* SkyWiteMacExample */,
-				F2FB6E771E55AA1F00BDBF7A /* SkyWiteWatchExample */,
-				F2FB6E861E55AA1F00BDBF7A /* SkyWiteWatchExample Extension */,
 				F2FB6EA61E55AA8100BDBF7A /* SkyWiteTVExample */,
 				F2573CA21CDA17E500B6E0C4 /* Products */,
 				F2793E251DDA29BD00CF73B1 /* Frameworks */,
@@ -247,37 +236,6 @@
 				F2FB6EA41E55AA8100BDBF7A /* UIKit.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F2FB6E771E55AA1F00BDBF7A /* SkyWiteWatchExample */ = {
-			isa = PBXGroup;
-			children = (
-				F2FB6E781E55AA1F00BDBF7A /* Interface.storyboard */,
-				F2FB6E7B1E55AA1F00BDBF7A /* Assets.xcassets */,
-				F2FB6E7D1E55AA1F00BDBF7A /* Info.plist */,
-			);
-			path = SkyWiteWatchExample;
-			sourceTree = "<group>";
-		};
-		F2FB6E861E55AA1F00BDBF7A /* SkyWiteWatchExample Extension */ = {
-			isa = PBXGroup;
-			children = (
-				F2FB6E891E55AA1F00BDBF7A /* InterfaceController.swift */,
-				F2FB6E8B1E55AA1F00BDBF7A /* ExtensionDelegate.swift */,
-				F2FB6E8D1E55AA1F00BDBF7A /* NotificationController.swift */,
-				F2FB6E8F1E55AA1F00BDBF7A /* Assets.xcassets */,
-				F2FB6E911E55AA1F00BDBF7A /* Info.plist */,
-				F2FB6E871E55AA1F00BDBF7A /* Supporting Files */,
-			);
-			path = "SkyWiteWatchExample Extension";
-			sourceTree = "<group>";
-		};
-		F2FB6E871E55AA1F00BDBF7A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F2FB6E881E55AA1F00BDBF7A /* PushNotificationPayload.apns */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		F2FB6EA61E55AA8100BDBF7A /* SkyWiteTVExample */ = {
@@ -502,14 +460,6 @@
 				F2793E1C1DDA298800CF73B1 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F2FB6E781E55AA1F00BDBF7A /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F2FB6E791E55AA1F00BDBF7A /* Base */,
-			);
-			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 		F2FB6EA91E55AA8100BDBF7A /* MainInterface.storyboard */ = {
