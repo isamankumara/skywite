@@ -18,6 +18,46 @@ Achieve your deadlines by using SkyWite. You will save Hundred hours.
 
 Start development using Skywite. Definitely you will be happy....! yeah..
 
+SkyWite being developed in clean code and its sleek features make it the “Dream Framework” for any iOS / Macos developer. Its modular architecture and feature-rich APIs makes it very simple for development. SkyWite’s powerful networking abstraction is built using Cocoa, which makes it easily available for everyone,
+
+Its core being developed on Objective C,  makes it compatible on the following platforms :
+-        iOS,
+-        Mac OS X,
+-        TV OS and
+
+The next question that would pop for any developer is, why build a framework as such when there a many similar ones available. The answer was quite straight forward. 9 out of 10 frameworks out there in the market have the following features:
+
+1. Support all request methods
+2. Offline request support
+3. HTTP request operation manager
+4. Cocoa Pod Support
+5. SWIFT Compatible
+6. Supports Apple UI Kit.
+7. Background request support
+8. Session manager
+9. Reachability manager
+10. Secured 
+11. Free support offered around the framework
+12. The framework will be continuously updated with the new OS drops
+13. Community around the framework to support bug fixes
+14. Code amendment flexibility
+16. 99% Guaranteed on crash management for the framework
+17. Block support
+18. MIT License
+
+Above features are not only available on the other frameworks in the market, but is also available on SkyWite, but here is what makes SkyWite special:
+
+19. Offline sync support
+20. The frameworks adds in a loading indicator when a request is sent, allows for addition of custom indicators as well
+21. A sing line of code to initiate a request, which will approximately save 20 lines of code
+22. Block with background request
+23. Tag a request (set int value to identify requests)
+24. Set priority for offline requests.
+25. All the request/response body will generated automatically which would save the developer approximately 50-70 lines of coding
+
+
+As same as the swnetworking framework we released earlier, this framework also doesn't have any issue. If you find any, I'll fix them as soon as possible. Now we don't need a team as there is no such issues to fix.
+
 
 # Requirements
 
@@ -54,32 +94,32 @@ If you are new to CocoaPods, please go to [Wiki](https://guides.cocoapods.org/us
 
 
 * `SWRequest`
-- `SWRequest`
-- `SWGet`
-- `SWPost`
-- `SWMultiPart`
-- `SWPut`
-- `SWPatch`
-- `SWDelete`
-- `SWHead`
-- `SWOfflineRequestManger`
+    - `SWRequest`
+    - `SWGet`
+    - `SWPost`
+    - `SWMultiPart`
+    - `SWPut`
+    - `SWPatch`
+    - `SWDelete`
+    - `SWHead`
+    - `SWOfflineRequestManger`
 * `ResponseType`
-- `SWResponseDataType`
-- `SWResponseJSONDataType`
-- `SWResponseXMLDataType`
-- `SWResponseStringDataType`
-- `SWResponseUIImageType`
-- `SWRequestDataType`
-- `SWRequestFormData`
-- `SWRequestMultiFormData`
-- `SWRequestJSONData`
+    - `SWResponseDataType`
+    - `SWResponseJSONDataType`
+    - `SWResponseXMLDataType`
+    - `SWResponseStringDataType`
+    - `SWResponseUIImageType`
+    - `SWRequestDataType`
+    - `SWRequestFormData`
+    - `SWRequestMultiFormData`
+    - `SWRequestJSONData`
 * `Reachability`
-- `SWReachability`
+    - `SWReachability`
 * `File`
-- `SWMedia`
+    - `SWMedia`
 * `UIKit+SkyWite`
-- `UIImageViewExtension`
-- `UIProgressViewExtension`
+    - `UIImageViewExtension`
+    - `UIProgressViewExtension`
 
 # How to Use
 
@@ -91,7 +131,7 @@ ALL Requests will be NSURLSession. Session will add in to `NSOperationQueue` . R
 let s  = SWGet()
 s.startDataTask(url: "", params:nil, success: { (task, object) in
 }) { (task, error) in
-print("error", error)
+    print("error", error)
 }
 ```
 If you want send parameters you have two options
@@ -100,7 +140,7 @@ If you want send parameters you have two options
 let s  = SWGet()
 s.startDataTask(url: "", params:"name=this is name&address=your address", success: { (task, object) in
 }) { (task, error) in
-print("error", error)
+    print("error", error)
 }
 ```
 If you want to encdoe parameters and values you need to pass `Dictionary` object with keys/values.
@@ -109,7 +149,7 @@ If you want to encdoe parameters and values you need to pass `Dictionary` object
 let s  = SWGet()
 s.startDataTask(url: "", params:"name=this is name&address=your address", success: { (task, object) in
 }) { (task, error) in
-print("error", error)
+    print("error", error)
 }
 ```
 
@@ -127,7 +167,7 @@ s.responseDataType = SWResponseStringDataType()
 s.startDataTask(url: "", params:nil, success: { (task, object) in
 print("item", object)
 }) { (task, error) in
-print("error", error)
+    print("error", error)
 }
 ```
 ### `GET` with loading indicator
@@ -136,9 +176,9 @@ If you set your parent view to method, loading indicator will be displayed.
 let s  = SWGet()
 s.responseDataType = SWResponseDataType()
 s.startDataTask(url: "", params:nil, parentView: self.view , success: { (task, object) in
-print("item", object)
+    print("item", object)
 }) { (task, error) in
-print("error", error)
+    print("error", error)
 }
 ```
 
@@ -149,11 +189,11 @@ If you want to access cached data on the response. You need to use relevant meth
 let s  = SWGet()
 s.responseDataType = SWResponseStringDataType()
 s.startDataTask(url: "", params: nil, parentView: self.view, cache: { (response, object) in
-print("chache", object)
+    print("chache", object)
 }, success: { (task, object) in
-print("success", object)
+    print("success", object)
 }) { (task, error) in
-print("success", error)
+    print("success", error)
 }
 ```
 ### `POST` request (simple)
@@ -162,17 +202,17 @@ Cache, Loading view available for the on the relevant method. Please check avail
 let s = SWPost()
 s.responseDataType = SWResponseStringDataType()
 s.startDataTask(url: "", params:["name":"this is name", "address": "your address"] as AnyObject  , success: { (task, object) in
-print("item", object)
+    print("item", object)
 }) { (task, error) in
-print("error", error)
+    print("error", error)
 }
 
 let s2 = SWPost()
 s2.responseDataType = SWResponseStringDataType()
 s2.startDataTask(url: "", params:"saman=test" as AnyObject  , success: { (task, object) in
-print("item", object)
+    print("item", object)
 }) { (task, error) in
-print("error", error)
+    print("error", error)
 }
 ```
 
@@ -204,9 +244,9 @@ let media2 = SWMedia(fileName: "imagefile.jpg", key: "image2", mineType:"image/j
 let s = SWPut()
 s.responseDataType = SWResponseStringDataType()
 s.startDataTask(url: "", params:"saman=test" as AnyObject  , success: { (task, object) in
-print("item", object)
+    print("item", object)
 }) { (task, error) in
-print("error", error)
+    print("error", error)
 }
 ```
 ### `PATCH` simple request
@@ -214,9 +254,9 @@ print("error", error)
 let s = SWPatch()
 s.responseDataType = SWResponseStringDataType()
 s.startDataTask(url: "", params:"saman=test" as AnyObject  , success: { (task, object) in
-print("item", object)
+    print("item", object)
 }) { (task, error) in
-print("error", error)
+    print("error", error)
 }
 
 ```
@@ -225,9 +265,9 @@ print("error", error)
 let s = SWDelete()
 s.responseDataType = SWResponseStringDataType()
 s.startDataTask(url: "", params:"saman=test" as AnyObject  , success: { (task, object) in
-print("item", object)
+    print("item", object)
 }) { (task, error) in
-print("error", error)
+    print("error", error)
 }
 
 ```
@@ -237,9 +277,9 @@ print("error", error)
 let s = SWHead()
 s.responseDataType = SWResponseStringDataType()
 s.startDataTask(url: "", params:"saman=test" as AnyObject  , success: { (task, object) in
-print("item", object)
+    print("item", object)
 }) { (task, error) in
-print("error", error)
+    print("error", error)
 }
 ```
 ## Features
@@ -253,9 +293,9 @@ let s = SWPost()
 s.reqeust.setValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
 s.responseDataType = SWResponseStringDataType()
 s.startDataTask(url: "", params:["name":"this is name", "address": "your address"] as AnyObject  , success: { (task, object) in
-print("item", object)
+    print("item", object)
 }) { (task, error) in
-print("error", error)
+    print("error", error)
 }
 ```
 
@@ -266,9 +306,9 @@ let s = SWPost()
 s.timeOut = 120
 s.responseDataType = SWResponseStringDataType()
 s.startDataTask(url: "", params:["name":"this is name", "address": "your address"] as AnyObject  , success: { (task, object) in
-print("item", object)
+    print("item", object)
 }) { (task, error) in
-print("error", error)
+    print("error", error)
 }
 ```
 
